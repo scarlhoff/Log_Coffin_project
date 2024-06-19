@@ -1,0 +1,18 @@
+{
+	"min_adap_overlap": 1,
+	"clip_min_read_quality": 20,
+	"clip_readlength": 30,
+	"preserve5p": true,
+	"mapper": "bwaaln",
+	"bwaalnn": 0.01,
+	"bwaalnl": 16500,
+	"bwaalno": 2,
+	"run_bam_filtering": true,
+	"bam_mapping_quality_threshold": 30,
+	"bam_filter_minreadlength": 30,
+	"bam_unmapped_type": "discard",
+	"dedupper": "markduplicates",
+	"damageprofiler_length": 100,
+	"damageprofiler_threshold": 15,
+	"damageprofiler_yaxis": 0.3
+}
